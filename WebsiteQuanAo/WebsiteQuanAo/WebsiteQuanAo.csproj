@@ -198,6 +198,11 @@
     <Compile Include="Models\DonHang_CT.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ckeditor\adapters\jquery.js" />
@@ -1722,6 +1727,10 @@
     <Content Include="ckfinder\userfiles\.htaccess" />
     <None Include="Models\DataQuanAo.dbml.layout">
       <DependentUpon>DataQuanAo.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\ClothesJS.js" />
